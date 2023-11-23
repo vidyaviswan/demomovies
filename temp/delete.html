@@ -1,0 +1,11 @@
+
+
+<form method="POST" enctype= "multipart/form-data">
+    {% csrf_token %}
+    Are you want to delete?
+    <input type="submit">
+<!--    {{form.as_p}}-->
+    <input type="button">
+<!--    <a class="btn btn-warning" href="{% url 'movieapp:delete' movie.id %}"> Update</a><br>-->
+
+</form>
